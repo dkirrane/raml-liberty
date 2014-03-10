@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>CUSTOM-liberty:start-server</actionName>
+        <displayName>liberty:start-server</displayName>
+        <goals>
+            <goal>liberty:start-server</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-liberty:stop-server</actionName>
+        <displayName>liberty:stop-server</displayName>
+        <goals>
+            <goal>liberty:stop-server</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-liberty:deploy</actionName>
+        <displayName>liberty:deploy</displayName>
+        <goals>
+            <goal>liberty:deploy</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-liberty:undeploy</actionName>
+        <displayName>liberty:undeploy</displayName>
+        <goals>
+            <goal>liberty:undeploy</goal>
+        </goals>
+    </action>
+        
+</actions>

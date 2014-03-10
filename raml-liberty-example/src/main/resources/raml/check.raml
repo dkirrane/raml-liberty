@@ -1,0 +1,15 @@
+#%RAML 0.8
+
+---
+title: API
+protocols: [ HTTP ]
+baseUri: http://{host}:9080/raml-liberty-example/app
+baseUriParameters:
+  host:
+    description: The hostname or IP the API is running on
+    type: string
+    required: true
+/check:
+  displayName: Check
+  get:
+    description: Check it
